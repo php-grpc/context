@@ -1,0 +1,19 @@
+{
+    "name": "php-grpc/context",
+    "description": "gRPC call context",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PhpGrpc\\Context\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpGrpc\\Context\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
